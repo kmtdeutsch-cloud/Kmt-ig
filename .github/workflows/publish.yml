@@ -1,0 +1,33 @@
+name: publish-instagram
+on:
+  schedule:
+    - cron: "*/10 * * * *"     # GitHub may delay runs by a few minutes
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (no posting)"
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency: publish-instagram
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish due posts
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            python3 scheduler/publish.py --dry-run
+          else
+            python3 scheduler/publish.py
+          fi
+      - name: Save queue state
+        run: |
+          git config user.name "kmt-bot"; git config user.email "bot@users.noreply.github.com"
+          git add scheduler/queue.json
+          git diff --cached --quiet || (git commit -m "queue update" && git push)

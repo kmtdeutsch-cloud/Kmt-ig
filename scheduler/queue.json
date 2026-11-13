@@ -1,0 +1,10 @@
+[
+  {
+    "id": "test-001",
+    "type": "IMAGE",
+    "publish_at": "2099-01-01T00:00:00Z",
+    "media_urls": ["https://raw.githubusercontent.com/kmtdeutsch-cloud/Kmt-ig/main/promo/mock_1.jpg"],
+    "caption": "تست ابزار رایگان (این پست فقط برای آزمایش است) #تست",
+    "status": "pending"
+  }
+]
