@@ -1,0 +1,74 @@
+{
+ "l09": {
+  "scheduled_id": 12595,
+  "title": "Aushang im Supermarkt",
+  "tag": "DTZ",
+  "answers": "1 b · 2 c"
+ },
+ "l10": {
+  "scheduled_id": 12599,
+  "title": "E-Mail von der Arztpraxis",
+  "tag": "DTZ",
+  "answers": "1 a · 2 b"
+ },
+ "l11": {
+  "scheduled_id": 12603,
+  "title": "Anzeige: Wohnung zu vermieten",
+  "tag": "DTZ",
+  "answers": "1 a · 2 c"
+ },
+ "l12": {
+  "scheduled_id": 12606,
+  "title": "Info: Schwimmkurs",
+  "tag": "DTZ",
+  "answers": "1 c · 2 a"
+ },
+ "l13": {
+  "scheduled_id": 12596,
+  "title": "Leserbrief: Fahrradwege",
+  "tag": "Goethe B1",
+  "answers": "1 c · 2 b · 3 a"
+ },
+ "l14": {
+  "scheduled_id": 12600,
+  "title": "Blog: Ein Jahr in Kanada",
+  "tag": "Goethe B1",
+  "answers": "1 b · 2 c · 3 c"
+ },
+ "l15": {
+  "scheduled_id": 12604,
+  "title": "Zeitungsnotiz: Neue Mülltonne",
+  "tag": "Goethe B1",
+  "answers": "1 c · 2 a · 3 b"
+ },
+ "l16": {
+  "scheduled_id": 12597,
+  "title": "Postkarte aus Hamburg",
+  "tag": "ÖSD A2",
+  "answers": "1 b · 2 c"
+ },
+ "l17": {
+  "scheduled_id": 12601,
+  "title": "Nachricht im Büro",
+  "tag": "ÖSD A2",
+  "answers": "1 c · 2 b"
+ },
+ "l18": {
+  "scheduled_id": 12605,
+  "title": "Anzeige: Flohmarkt",
+  "tag": "ÖSD A2",
+  "answers": "1 c · 2 b"
+ },
+ "l19": {
+  "scheduled_id": 12598,
+  "title": "Brief an den Nachbarn",
+  "tag": "telc B1",
+  "answers": "1 c · 2 b · 3 c"
+ },
+ "l20": {
+  "scheduled_id": 12602,
+  "title": "Artikel: Homeoffice",
+  "tag": "telc B1",
+  "answers": "1 a · 2 b · 3 a"
+ }
+}
